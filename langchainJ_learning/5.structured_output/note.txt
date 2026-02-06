@@ -1,0 +1,35 @@
+structured output
+ In langchai, structured output refers to the practice of having 
+ language models return responses in a well-defined data
+ format(for example,JSON),rather than free-form text. this 
+ makes the model output easier to parse and work with programmatically.
+
+Why do we need sturctured output?
+ans.
+    data extraction
+    API building
+    Agents 
+
+                            LLM
+                            /   \
+                           /     \
+                          /       \
+                        can        can't
+[with_structured_output method]    [output parsers]
+
+
+
+    with_structured_output :
+    '''in this method before invoking the model we have to 
+        specify data-format . we can specify data-formate in 3 ways :
+        typed dictionary , pydantic , json_schema'''
+
+1.  TypedDict: is a way to define a dictionary in python where you specify what 
+    keys and values should exist. it helps ensure that your dictionary follows a specific structure.
+
+    Why use TypedDict?
+    • It tells Python what keys are required and what types of values they should have.
+    • It does not validate data at runtime (it just helps with type hints for better coding).
+
+2.  pydantic:
+    
