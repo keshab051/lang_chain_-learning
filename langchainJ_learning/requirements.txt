@@ -2,6 +2,7 @@ google-generativeai
 
 #Hugging face Integration 
 langchain-huggingface
+langchain-google-genai 
 transformers
 huggingface-hub
 
@@ -11,3 +12,5 @@ python-dotenv
 #Machine learning Utilities
 numpy 
 scikit-learn
+torch
+sentence-transformers
