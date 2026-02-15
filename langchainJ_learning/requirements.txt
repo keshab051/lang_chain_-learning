@@ -14,3 +14,4 @@ numpy
 scikit-learn
 torch
 sentence-transformers
+langchain_community
