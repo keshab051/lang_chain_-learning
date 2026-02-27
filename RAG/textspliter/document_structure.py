@@ -12,4 +12,6 @@ splitter = RecursiveCharacterTextSplitter.from_language(
     chunk_overlap=0
 )
 
-print(splitter.split_text(text))
+chunks=splitter.split_text(text)
+print(len(chunks))
+print(chunks)
