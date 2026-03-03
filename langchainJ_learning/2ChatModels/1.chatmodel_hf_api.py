@@ -10,7 +10,7 @@ llm = HuggingFaceEndpoint(
 )
 llm = ChatHuggingFace(llm=llm)
 result = llm.invoke("What is the capital city of nepal?")
-print(result.content)
+print(result)
 
 
 # from dotenv import load_dotenv
